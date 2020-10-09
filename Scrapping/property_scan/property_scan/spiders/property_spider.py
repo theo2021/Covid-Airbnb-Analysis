@@ -2,7 +2,7 @@ import scrapy
 
 
 class PropertySpider(scrapy.Spider):
-    name = "xe.gr property scan"
+    name = "xe.gr_property_scan"
 
     def __init__(self, starting_url='', **kwargs):
         self.start = starting_url
